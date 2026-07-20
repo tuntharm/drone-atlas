@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.env*
+.venv/
+venv/
+dist/
+build/
+
+# Downloaded models and generated media are intentionally never tracked.
+models/
+outputs/
+*.weights
+*.onnx
+*.mp4
+*.avi
+*.mov
+
+# Local tooling
+.idea/
+.vscode/
+*:Zone.Identifier
